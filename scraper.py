@@ -55,8 +55,11 @@ def parse_home():
         if response.status_code == 200:
             home = response.content.decode('utf-8')
             parsed = html.fromstring(home)
+            #The main rout must be here
             route = parsed.xpath(XPATH_TRUEUSD)
+            #Since the URL we need for currency is an extension (not a complete URL) we must add it to the main url
             validation_link_str = str((HOME_URL1+(route[0])))
+            #The validation_link is the complete URL where our currency is
             validation_link = [validation_link_str]
             print(f'URL queried: {validation_link}')
 

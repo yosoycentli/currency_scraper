@@ -69,7 +69,7 @@ def parse_home():
 
             for link in validation_link:
                 parse_currency(link, today)
-            print(f'Name of the directory where the info is: {today}')
+            print(f'The name of the directory where the info is: {today}')
         else:
             raise ValueError(f'Error: {response.status_code}')
     except ValueError as ve:

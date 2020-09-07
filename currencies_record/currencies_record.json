@@ -1,0 +1,44 @@
+[
+ {
+   "id": 0,
+    "currency": TUSD,
+    "price": 1.0,
+    "status": 0.4,
+    "date": 2020-09-06 18:53:25.568772
+ },
+ {
+   "id": 1
+    "currency": TUSD,
+    "price": 1.0,
+    "status": 0.0,
+    "date": 2020-09-07 09:03:28.395279
+ },
+ {
+   "id": 2
+    "currency": TUSD,
+    "price": 1.0,
+    "status": 0.0,
+    "date": 2020-09-07 09:03:47.193005
+ },
+ {
+   "id": 3
+    "currency": TUSD,
+    "price": 1.0,
+    "status": 0.0,
+    "date": 2020-09-07 09:05:34.438621
+ },
+ {
+   "id": 4
+    "currency": TUSD,
+    "price": 0.999502,
+    "status": -0.6,
+    "date": 2020-09-07 09:09:29.192448
+ },
+ {
+   "id": 5
+    "currency": TUSD,
+    "price": 1.0,
+    "status": -0.2,
+    "date": 2020-09-07 13:21:37.484256
+ }
+]

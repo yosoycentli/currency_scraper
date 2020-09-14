@@ -1,5 +1,12 @@
 # dotenv environment variables file
 .venv
+.env
+
+
+#jupyter notebook
+.ipynb_checkpoints
+sesion-6.ipynb
+plot-price_currency.ipynb
 
 
 ### macOS ###
@@ -7,3 +14,6 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+
+#Files where I try some things
+try.py
